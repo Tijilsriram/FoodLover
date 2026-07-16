@@ -13,7 +13,10 @@ dns.setServers(["8.8.8.8", "8.8.4.4"]);
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+     origin: [
+      "http://localhost:5173",
+      "https://food-lover-beta.vercel.app/",
+    ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: [
