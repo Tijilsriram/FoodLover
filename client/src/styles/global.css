@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+
+html{
+    font-size:70%;
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+.main_heading{
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+    color: #000;
+}
+
+.normal_heading{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.normal_heading-1{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--primary_color);
+    text-align: center;
+}

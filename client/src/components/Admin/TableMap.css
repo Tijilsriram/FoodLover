@@ -1,0 +1,40 @@
+.table-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+    margin:40px 0;
+}
+
+.table-card{
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.table-card:hover{
+    transform:scale(1.05);
+}
+
+.available{
+    background:#2ecc71;
+}
+
+.booked{
+    background:#e74c3c;
+}
+
+.arrived{
+    background:#f39c12;
+}
+
+.completed{
+    background:#7f8c8d;
+}
+
+.cancelled{
+    background:#95a5a6;
+}

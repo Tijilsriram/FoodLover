@@ -1,0 +1,45 @@
+#deal-today{
+    padding: 10rem 0;
+    background: url("../../assets/images/deal.jpg") no-repeat center center/cover;
+}
+
+.swiper{
+    margin-top:6rem;
+    padding-bottom:5rem;
+}
+
+.cards{
+    text-align:center;
+    margin:3rem 0;
+    padding:2rem;
+}
+
+.cards img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 2rem;
+}
+
+.cards h4{
+    font-family:var(--ubuntu);
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.cards p{
+    font-size:1.2rem;
+    line-height:1.6;
+}
+
+.cards .price{
+    font-size:2rem;
+    color:var(--primary_color);
+    font-weight:600;
+    margin-top:1.5rem;
+}
+
+.swiper-pagination-bullet-active{
+    background:var(--primary_color);
+}

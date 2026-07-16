@@ -1,0 +1,47 @@
+.success-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+.success-card {
+    background: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.success-icon {
+    font-size: 80px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.success-card h1 {
+    margin-bottom: 15px;
+}
+
+.success-card p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.home-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #ff6b35;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.home-btn:hover {
+    background: #e65a28;
+}
